@@ -10,7 +10,7 @@
                </svg>
             </button>
             <img src="https://cdn-icons-png.flaticon.com/512/7296/7296308.png" class="h-8 mr-3" alt="Logo" />
-            <span class="self-center text-xl font-bold text-white sm:text-2xl whitespace-nowrap"> Si Sampah! </span>
+            <span class="self-center text-xl font-bold text-white sm:text-2xl whitespace-nowrap"> Fish Feeder </span>
             </a>
          </div>
 
@@ -28,15 +28,9 @@
             </a>
          </li>
          <li>
-            <a href="/nasabah" class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 <?= url_is('/nasabah*') ? 'bg-green-800 text-white hover:bg-green-800' : ''; ?>">
-               <svg aria-hidden="true" stroke-width="1.5" class="flex-shrink-0 size-6 text-gray-500 transition duration-75 group-hover:text-gray-900 <?= url_is('/nasabah*') ? 'text-white' : ''; ?>" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" /></svg>
-               <span class="ml-3"> Nasabah </span>
-            </a>
-         </li>
-         <li>
-            <a href="/sampah" class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 <?= url_is('/sampah*') ? 'bg-green-800 text-white hover:bg-green-800' : ''; ?>">
-               <svg aria-hidden="true" class="flex-shrink-0 size-6 text-gray-500 transition duration-75 group-hover:text-gray-900 <?= url_is('/sampah*') ? 'text-white' : ''; ?>" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
-               <span class="flex-1 ml-3 whitespace-nowrap"> Sampah </span>
+            <a href="/log" class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 <?= url_is('/log*') ? 'bg-green-800 text-white hover:bg-green-800' : ''; ?>">
+               <svg aria-hidden="true" stroke-width="1.5" class="flex-shrink-0 size-6 text-gray-500 transition duration-75 group-hover:text-gray-900 <?= url_is('/log*') ? 'text-white' : ''; ?>" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" /></svg>
+               <span class="ml-3"> Log </span>
             </a>
          </li>
       </ul>

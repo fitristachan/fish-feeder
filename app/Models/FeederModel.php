@@ -7,20 +7,20 @@ use CodeIgniter\Model;
 class FeederModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'transaksi';
-    protected $primaryKey       = 'id_transaksi';
+    protected $table            = 'log';
+    protected $primaryKey       = 'log_id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['id_transaksi', 'berat', 'total_harga', 'id_sampah', 'id_nasabah'];
+    protected $allowedFields    = ['log_id', 'status_id', 'tanggal_waktu', 'tingkat_kekeruhan'];
 
-    // Dates
-    protected $useTimestamps = true;
-    protected $dateFormat    = 'datetime';
-    protected $createdField  = 'created_at';
-    protected $updatedField  = 'updated_at';
-    protected $deletedField  = 'deleted_at';
+    // // Dates
+    // protected $useTimestamps = true;
+    // protected $dateFormat    = 'datetime';
+    // protected $createdField  = 'created_at';
+    // protected $updatedField  = 'updated_at';
+    // protected $deletedField  = 'deleted_at';
 
     // Validation
     protected $validationRules      = [];
@@ -39,22 +39,11 @@ class FeederModel extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
-    public function getTransaksiNasabah()
+    public function getAllLog()
     {
-        return $this->select('id_transaksi,
-                            berat,
-                            total_harga,
-                            transaksi.created_at,
-                            transaksi.id_sampah,
-                            transaksi.id_nasabah,
-                            sampah.item as jenis_sampah')
-                    ->join('nasabah', 'nasabah.id_nasabah=transaksi.id_nasabah')
-                    ->join('sampah', 'sampah.id_sampah=transaksi.id_sampah')
+        return $this->select('log_id, tanggal_waktu, tingkat_kekeruhan, status.status')
+                    ->join('status', 'log.status_id = status.status_id')
+                    ->asObject()
                     ->findAll();
-    }
-
-    public function getLastTransaksiNasabah($id)
-    {
-        return $this->where(['transaksi.id_nasabah'=>$id])->orderBy('created_at', 'DESC')->first();
     }
 }

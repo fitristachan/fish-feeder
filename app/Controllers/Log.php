@@ -16,7 +16,7 @@ class Log extends BaseController
     {
         $data = [
             'title' => 'Riwayat Fish Feeder',
-            'sampah' => $this->feederModel->getAll()
+            'feeder' => $this->feederModel->getAllLog()
         ];
         return view('/show', $data);
     }
