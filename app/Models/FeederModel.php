@@ -46,4 +46,12 @@ class FeederModel extends Model
                     ->asObject()
                     ->findAll();
     }
+
+    public function getLatestStatusId()
+    {
+        return $this->select('status_id')
+                    ->orderBy('tanggal_waktu', 'DESC')
+                    ->asObject()
+                    ->first();
+    }
 }
