@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 23, 2024 at 10:13 AM
+-- Generation Time: Jul 24, 2024 at 02:12 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.2.12
 
@@ -31,14 +31,14 @@ CREATE TABLE `log` (
   `log_id` int(11) NOT NULL,
   `tanggal_waktu` datetime NOT NULL,
   `tingkat_kekeruhan` float NOT NULL,
-  `status` int(11) NOT NULL
+  `status_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `log`
 --
 
-INSERT INTO `log` (`log_id`, `tanggal_waktu`, `tingkat_kekeruhan`, `status`) VALUES
+INSERT INTO `log` (`log_id`, `tanggal_waktu`, `tingkat_kekeruhan`, `status_id`) VALUES
 (1, '2024-07-18 09:58:14', 12.1, 2);
 
 -- --------------------------------------------------------
@@ -69,7 +69,7 @@ INSERT INTO `status` (`status_id`, `status`) VALUES
 --
 ALTER TABLE `log`
   ADD PRIMARY KEY (`log_id`),
-  ADD KEY `statusFk` (`status`);
+  ADD KEY `statusFk` (`status_id`);
 
 --
 -- Indexes for table `status`
@@ -101,7 +101,7 @@ ALTER TABLE `status`
 -- Constraints for table `log`
 --
 ALTER TABLE `log`
-  ADD CONSTRAINT `statusFk` FOREIGN KEY (`status`) REFERENCES `status` (`status_id`);
+  ADD CONSTRAINT `statusFk` FOREIGN KEY (`status_id`) REFERENCES `status` (`status_id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

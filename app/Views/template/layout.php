@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Fish Feeder | <?= $title; ?> </title>
 
-    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/7296/7296308.png">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/4191/4191509.png">
+
     <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
