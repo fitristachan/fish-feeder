@@ -17,12 +17,16 @@ class Home extends BaseController
     public function index(): string
     {
         $feeder = $this->feederModel->findAll();
-        $latestStatusId = $this->feederModel->getLatestStatusId;
+        $latestStatusId = $this->feederModel->getLatestStatusId();
+        $tingkatKekeruhan = $this->feederModel->getTingkatKekeruhan();
+        $log = $this->feederModel->getTop5Records();
 
         $data = [
             'title' => 'Dashboard',
             'feeder' => $feeder,
-            'latestStatusId' => $latestStatusId
+            'latestStatusId' => $latestStatusId,
+            'tingkatKekeruhan' => $tingkatKekeruhan,
+            'log' => $log
         ];
 
         return view('dashboard', $data);

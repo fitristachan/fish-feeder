@@ -49,9 +49,28 @@ class FeederModel extends Model
 
     public function getLatestStatusId()
     {
-        return $this->select('status_id')
+        $result = $this->select('status_id')
+                       ->orderBy('tanggal_waktu', 'DESC')
+                       ->first(); // Returns an associative array or object
+
+        return $result ? (int) $result['status_id'] : null;
+    }
+
+    public function getTingkatKekeruhan()
+    {
+        $result = $this->select('tingkat_kekeruhan')
+                       ->orderBy('tanggal_waktu', 'DESC')
+                       ->first(); // Returns an associative array or object
+        
+        return $result['tingkat_kekeruhan'] ?? null;
+    }
+
+     public function getTop5Records()
+    {
+        return $this->select('log_id, tanggal_waktu, tingkat_kekeruhan, status.status')
+                    ->join('status', 'log.status_id = status.status_id')
                     ->orderBy('tanggal_waktu', 'DESC')
-                    ->asObject()
-                    ->first();
+                    ->limit(5)
+                    ->findAll();
     }
 }

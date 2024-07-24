@@ -132,3 +132,514 @@ in APPPATH\Views\dashboard.php on line 7.
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp-new\\htdocs\\fish_feeder\\public\\index.php')
+CRITICAL - 2024-07-24 16:55:57 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 16:59:21 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH\Controllers\Home.php(30): view('dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:06:03 --> ErrorException: Object of class stdClass could not be converted to int
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 7.
+ 1 APPPATH\Views\dashboard.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to int', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:06:13 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:06:23 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:13:51 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:15:22 --> ErrorException: Object of class stdClass could not be converted to int
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 7.
+ 1 APPPATH\Views\dashboard.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to int', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:19:20 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:19:27 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:26:35 --> ErrorException: Trying to access array offset on value of type float
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type float', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:28:10 --> ErrorException: Trying to access array offset on value of type float
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type float', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:32:13 --> TypeError: number_format(): Argument #1 ($num) must be of type float, array given
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): number_format([...])
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:32:33 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:32:35 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:32:50 --> ErrorException: Undefined variable $tingkatKekeruhan
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tingkatKekeruhan', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:34:45 --> ErrorException: Undefined variable $tingkatKekeruhan
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tingkatKekeruhan', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:42:34 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:44:00 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:45:38 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 17:54:09 --> ErrorException: Attempt to read property "tanggal_waktu" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 67.
+ 1 APPPATH\Views\dashboard.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal_waktu" on array', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:25:21 --> ErrorException: Attempt to read property "tanggal_waktu" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 61.
+ 1 APPPATH\Views\dashboard.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal_waktu" on array', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:25:51 --> ErrorException: Attempt to read property "tanggal_waktu" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 58.
+ 1 APPPATH\Views\dashboard.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal_waktu" on array', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:26:01 --> ErrorException: Attempt to read property "tanggal_waktu" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 58.
+ 1 APPPATH\Views\dashboard.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal_waktu" on array', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:26:30 --> ErrorException: Attempt to read property "tanggal_waktu" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 58.
+ 1 APPPATH\Views\dashboard.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal_waktu" on array', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:27:28 --> ErrorException: Attempt to read property "tanggal_waktu" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 61.
+ 1 APPPATH\Views\dashboard.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal_waktu" on array', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:28:18 --> ErrorException: Attempt to read property "tanggal_waktu" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 61.
+ 1 APPPATH\Views\dashboard.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal_waktu" on array', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:29:50 --> ErrorException: Undefined variable $tanggal_waktu
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 61.
+ 1 APPPATH\Views\dashboard.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal_waktu', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:30:04 --> ErrorException: Attempt to read property "tanggal_waktu" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 61.
+ 1 APPPATH\Views\dashboard.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal_waktu" on array', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:32:39 --> ErrorException: Attempt to read property "tanggal_waktu" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 61.
+ 1 APPPATH\Views\dashboard.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal_waktu" on array', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:32:41 --> ErrorException: Attempt to read property "tanggal_waktu" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 61.
+ 1 APPPATH\Views\dashboard.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal_waktu" on array', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:33:53 --> ErrorException: Attempt to read property "tanggal_waktu" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 61.
+ 1 APPPATH\Views\dashboard.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal_waktu" on array', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:35:54 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in D:\KULIAH\UAS-IOT\fish-feeder\vendor\codeigniter4\framework\system\Model.php on line 919
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseBuilder.php on line 397.
+ 1 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->select('tanggal_waktu', 'tingkat_kekeruhan', 'status')
+ 2 APPPATH\Models\FeederModel.php(70): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Home.php(22): App\Models\FeederModel->getTop5Records()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:36:13 --> ParseError: syntax error, unexpected token "*"
+[Method: GET, Route: /]
+in APPPATH\Models\FeederModel.php on line 70.
+ 1 VENDORPATH\composer\ClassLoader.php(433): Composer\Autoload\{closure}('D:\\KULIAH\\UAS-IOT\\fish-feeder\\vendor\\composer/../../app/Models/FeederModel.php')
+ 2 APPPATH\Controllers\Home.php(13): Composer\Autoload\ClassLoader->loadClass('App\\Models\\FeederModel')
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:37:49 --> ErrorException: Attempt to read property "tanggal_waktu" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 61.
+ 1 APPPATH\Views\dashboard.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal_waktu" on array', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
+CRITICAL - 2024-07-24 18:39:56 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 67.
+ 1 APPPATH\Views\dashboard.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\KULIAH\\UAS-IOT\\fish-feeder\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\KULIAH\\UAS-IOT\\fish-feeder\\public\\index.php')
