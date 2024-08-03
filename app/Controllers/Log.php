@@ -20,4 +20,33 @@ class Log extends BaseController
         ];
         return view('/show', $data);
     }
+
+    public function postLog()
+{
+    $tanggal_waktu = $this->request->getGet('tanggal_waktu');
+    $tingkat_kekeruhan = $this->request->getGet('tingkat_kekeruhan');
+    $status_id = $this->request->getGet('status_id');
+
+    $data = [
+        'tanggal_waktu' => $tanggal_waktu,
+        'tingkat_kekeruhan' => (float) $tingkat_kekeruhan,
+        'status_id' => (int) $status_id
+    ];
+
+    if ($this->feederModel->insert($data) === false) {
+        $response = [
+            'success' => false,
+            'message' => 'Insert Failed',
+            'errors' => $this->feederModel->errors()
+        ];
+    } else {
+        $response = [
+            'success' => true,
+            'message' => 'Data Inserted Successfully',
+            'data' => $data
+        ];
+    }
+    return $this->response->setJSON($response);
+}
+
 }
